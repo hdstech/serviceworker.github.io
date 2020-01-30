@@ -1,6 +1,6 @@
 const cacheName = "v1";
 
-const cacheAssets = ["../index.html", "../about.html", "../css/style.css", "./main.js", "./sw_cached_pages.js"];
+const cacheAssets = ["../index.html", "../about.html", "../css/style.css", "./main.js"];
 
 //Call install event
 self.addEventListener("install", e => {
