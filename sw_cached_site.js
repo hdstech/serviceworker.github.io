@@ -38,5 +38,5 @@ self.addEventListener("fetch", e => {
       });
       return res;
     })
-    .catch(err => caches.match(e.request).then(res => res));
+    .catch(() => caches.match(e.request).then(res => res));
 });
